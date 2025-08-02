@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Web Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom Style -->
+  <style>
+    .navbar-custom {
+      background-color: #002b5c; /* Dark Blue */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom py-3">
+    <div class="container">
+      <a class="navbar-brand fs-4 fw-bold" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Home.html">Projects</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <section id="home">
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Creative Web Development poster templates - Made with PosterMyWall.jpg" class="d-block w-100" alt="Camera 1">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Camera Setup Showcase</h5>
+            <p>High-resolution visuals integrated into clean web designs.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="investing app or website minimal instagram po - Made with PosterMyWall.jpg" class="d-block w-100" alt="Camera 2">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Modern Visual Presentation</h5>
+            <p>Web designs enhanced with multimedia elements.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <p class="text-center">Here are some featured web development and design works I’ve completed.</p>
+      <!-- Add project cards or descriptions here -->
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p>
+        I'm a passionate web designer who creates modern, clean, and responsive websites using technologies like Bootstrap, HTML, and JavaScript. I specialize in visual design and interactive layout for businesses and personal branding.
+      </p>
+      <p>
+        My work includes online advertising design, banner graphics, and social media branding. I understand how to combine design aesthetics with functional development to create impactful online experiences.
+      </p>
+      <p>
+        With a focus on responsiveness and usability, I help clients bring their digital ideas to life while maintaining brand identity across platforms.
+      </p>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Media</h2>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-3 col-6 mb-4">
+          <img src="service design template - Made with PosterMyWall (1).jpg" class="img-fluid rounded mb-2" alt="Media 1">
+          <p>Web Ads</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <img src="investing app or website minimal instagram po - Made with PosterMyWall.jpg" class="img-fluid rounded mb-2" alt="Media 2">
+          <p>Social Banners</p>
+        </div>
+        <div class="col-md-3 col-6 mb-4">
+          <img src="Creative Web Development poster templates - Made with PosterMyWall.jpg" class="img-fluid rounded mb-2" alt="Media 3">
+          <p>Thumbnail Graphics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Contact</h2>
+      <p>Email: yourname@example.com</p>
+      <p>Phone: +123 456 7890</p>
+      <p>Let's collaborate on your next digital project!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-2">Connect with me:</p>
+      <div class="mb-3">
+        <a href="https://www.facebook.com/MEITAHSANAHlo" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/TechNova-123-dani" class="text-white"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
